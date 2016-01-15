@@ -72,7 +72,7 @@ y<-matrix(
   nrow=3,
   ncol=3,
   byrow=T
-)
+  )
 y
 y.inverse <-solve(y)
 y.inverse %*%y
@@ -90,7 +90,7 @@ summary(diamonds)
 #b
 diamonds1<-subset(diamonds,(cut=="fair"))
 summary(diamonds1)
-#the mean price of cut fair is 673.3
+#the mean price of cut fair is 577.43
 #c
 diamonds2 <-subset(diamonds,cut=="good"|cut=="very good"|cut=="Ideal")
 summary(diamonds2)
